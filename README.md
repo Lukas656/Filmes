@@ -1,4 +1,4 @@
-# the_batman
+# Filmes
 Dessafio de colegas, criar uma pagina com o tema de filmes com React
 
 ## Autor
