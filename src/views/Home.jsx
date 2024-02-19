@@ -19,7 +19,7 @@ function Home(props) {
 
           <button>
             <span>
-              <a href="https://www.cinemark.com.br/ingressos" target="_blank">
+              <a href="https://www.cinemark.com.br/ingressos" target="_blank" rel="noopener noreferrer" >
                 buy ticket
               </a>
             </span>
