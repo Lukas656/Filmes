@@ -22,7 +22,7 @@ function Header() {
             <Link to="/contact">Contato</Link>
           </li>
           <li>
-            <Link to="https://www.cinemark.com.br/ingressos" target="_blank">
+            <Link to="https://www.cinemark.com.br/ingressos" target="_blank" rel="noopener noreferrer">
               Ingressos
             </Link>
           </li>
