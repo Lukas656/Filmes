@@ -11,20 +11,20 @@ const Footer = (props) => (
           <ul>
             <li>
               <a
-                href=""
+                href="https://www.linkedin.com/in/link-lucas-santos/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram
+                Linkedin
               </a>
             </li>
             <li>
               <a
-                href=""
+                href="https://github.com/Lukas656/Filmes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Código do Projeto
+                Repositório
               </a>
             </li>
           </ul>

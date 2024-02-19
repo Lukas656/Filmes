@@ -15,12 +15,13 @@
     margin-top: 15px;
   }
   
-  ul li {
+ul li {
     list-style: none;
     margin: 10px;
   }
-  li a{
+li a{
     color: white;
+    text-decoration: none;
   }
     
   .footer-content {
