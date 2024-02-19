@@ -11,7 +11,7 @@ const Footer = (props) => (
           <ul>
             <li>
               <a
-                href="https://www.instagram.com/kaiique.nasc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -20,7 +20,7 @@ const Footer = (props) => (
             </li>
             <li>
               <a
-                href="https://github.com/Lukas656/KNTEC-EMPRESA-PILOTO"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -32,11 +32,11 @@ const Footer = (props) => (
         <div class="contact-info">
           <h2>Contato</h2>
           <p>São Paulo</p>
-          <p>Kaique.nascimento@collarcapital.com</p>
+          <p>lucassantosnasc.21@gmail.com</p>
         </div>
       </div>
       <div class="copyright">
-        <span>&copy;2023 Feito por: Lucas Santos Nascimento.</span>
+        <span>&copy;2023 Lucas Santos Nascimento.</span>
       </div>
     </div>
   </>

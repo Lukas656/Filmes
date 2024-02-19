@@ -5,40 +5,30 @@ import "./header.css";
 
 function Header() {
   return (
-    <header className="header">
-      <input type="checkbox" id="burger-toggle" />
-      <label for="burger-toggle" class="burger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </label>
-      <nav class="menu">
-        <div class="menu-inner">
-          <ul class="menu-nav">
-            <li class="menu-nav-item">
-              <Link to="/home" class="menu-nav-link">
-                Home
-              </Link>
-            </li>
-            <li class="menu-nav-item">
-              <Link to="/blog" class="menu-nav-link">
-                Filmes
-              </Link>
-            </li>
-            <li class="menu-nav-item">
-              <Link to="/calc" class="menu-nav-link">
-                Sobre
-              </Link>
-            </li>
-            <li class="menu-nav-item">
-              <Link to="/" class="menu-nav-link-end">
-                Exit
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <>
+      <header id="menu">
+        <h1>
+          <img
+            src="https://i.ibb.co/p0MTK6n/batman-logo-white-png-3.png"
+            alt="batman"
+          />
+          <strong>THE BATMAN</strong>
+        </h1>
+        <ul>
+          <li>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contato</Link>
+          </li>
+          <li>
+            <Link to="https://www.cinemark.com.br/ingressos" target="_blank">
+              Ingressos
+            </Link>
+          </li>
+        </ul>
+      </header>
+    </>
   );
 }
 
